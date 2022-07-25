@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            style="@style/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name_head" />
+
+        <EditText
+            android:id="@+id/name"
+            style="@style/name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/name_hint"
+            android:inputType="textCapWords"
+            android:autofillHints="" />
+
+        <TextView
+            style="@style/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quantity_head" />
+
+        <LinearLayout
+            style="@style/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/quantity_buttons"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="@string/increase_quantity"
+                android:onClick="increaseQuantity"/>
+
+            <TextView
+                android:id="@+id/quantity"
+                style="@style/quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                style="@style/quantity_buttons"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="@string/decrease_quantity"
+                android:onClick="decreaseQuantity"/>
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/toppings_head" />
+
+        <CheckBox
+            android:id="@+id/whipped_checkbox"
+            style="@style/checkbox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/whipped_cream"
+            android:onClick="checkWhipped"/>
+
+        <CheckBox
+            android:id="@+id/chocolate_checkbox"
+            style="@style/checkbox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chocolate_garnish"
+            android:onClick="checkChocolate"/>
+
+        <TextView
+            style="@style/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/total_price_head" />
+
+        <LinearLayout
+            style="@style/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/price_currency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/currency" />
+
+            <TextView
+                android:id="@+id/price"
+                style="@style/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <Button
+            style="@style/buy_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buy_button"
+            android:onClick="buy_coffee"/>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

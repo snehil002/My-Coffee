@@ -1,0 +1,28 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">MyCoffee</string>
+    <string name="name_head">Name</string>
+    <string name="name_hint">Tap To Enter Name</string>
+    <string name="quantity_head">Quantity</string>
+    <string name="increase_quantity" translatable="false">+</string>
+    <string name="init_quantity" translatable="false">1</string>
+    <string name="decrease_quantity" translatable="false">-</string>
+    <string name="toppings_head">Toppings</string>
+    <string name="whipped_cream">With Whipped Cream</string>
+    <string name="chocolate_garnish">With Chocolate Garnish</string>
+    <string name="total_price_head">Total Price</string>
+    <string name="currency" translatable="false">₹</string>
+    <string name="init_price" translatable="false">20</string>
+    <string name="buy_button">Order Now</string>
+
+
+    <string name="max_quantity" translatable="false">20</string>
+    <string name="base_price" translatable="false">20</string>
+    <string name="whipped_price" translatable="false">10</string>
+    <string name="chocolate_price" translatable="false">10</string>
+    <string name="to_address" translatable="false">snehil50@gmail.com</string>
+    <string name="subject">Coffee order for <xliff:g id="name_of_cus">%s</xliff:g></string>
+    <string name="mes1">CART :\nName - <xliff:g id="name_of_cus">%s</xliff:g>\nYou ordered <xliff:g id="quantity">%d</xliff:g> coffees\n</string>
+    <string name="whipped_cream_java">With Whipped Cream\n</string>
+    <string name="chocolate_garnish_java">With Chocolate Garnish\n</string>
+    <string name="mes2">for a total price of ₹ <xliff:g id="total_price">%d</xliff:g>\nYour order will be delivered soon!\nThank You!!</string>
+</resources>

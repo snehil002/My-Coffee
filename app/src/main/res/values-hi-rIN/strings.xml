@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">मेरी कॉफी</string>
+    <string name="name_head">नाम</string>
+    <string name="name_hint">नाम दर्ज करने के लिए टैप करें</string>
+    <string name="quantity_head">मात्रा</string>
+    <string name="toppings_head">टॉपिंग</string>
+    <string name="whipped_cream">फेटी हुई मलाई भी</string>
+    <string name="chocolate_garnish">चॉकलेट गार्निश भी</string>
+    <string name="total_price_head">कुल कीमत</string>
+    <string name="buy_button">कार्ट में डालें</string>
+
+
+    <string name="mes1">कार्ट :\nनाम - <xliff:g id="name">%s</xliff:g>\nआपने <xliff:g id="quantity">%d</xliff:g> कॉफ़ी ऑर्डर किया\n</string>
+    <string name="whipped_cream_java">फेटी हुई मलाई भी\n</string>
+    <string name="chocolate_garnish_java">चॉकलेट गार्निश भी\n</string>
+    <string name="mes2">जिसकी कुल कीमत ₹ <xliff:g id="price">%d</xliff:g> है\nआपकी कॉफी जल्द ही आप तक पहुँचाई जाएगी!\nधन्यवाद!!</string>
+    <string name="subject"><xliff:g id="name_of_cus">%s</xliff:g> के लिए काॅफी</string>
+</resources>
