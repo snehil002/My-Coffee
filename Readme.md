@@ -1,10 +1,33 @@
-# MyCoffee
-By Snehil Kumar
+# My-Coffee
+~ by Snehil Kumar
 
->Coffee Ordering App
+> Coffee Ordering Android App  
+> See the ss/ directory for screenshots  
 
-The app displays a simple form to order coffee.
+## About this App
+The Coffee Ordering Android App, "MyCoffee", is a  
+simple one-page app that takes coffee orders from  
+the users and sends those orders to the coffee shop  
+owner through an email.  
 
-When the order button is pressed, an email is sent to the shop owner with the order details like, Quantity of Coffee, Toppings, etc.
+## How the App works
+The form asks for the customer's name, quantity of  
+coffee and offers 2 choices of toppings.  
 
-<img src="ss/MyCoffeeForm.png" alt="A simple form to order Coffee - MyCoffee App Page" width="300px"/>
+At last, it displays the total price of the order.  
+
+There is an 'Order Now' button.  
+
+The 'Order Now' button triggers an email to the  
+coffee shop owner with the details of the order.  
+
+To trigger an email, I used Android email intent.  
+
+When the order button is clicked, the compose mail  
+box of the phone email app is opened.  
+
+After that, we can press the 'Send Mail' button to  
+send the email to the shop owner.  
+
+## Skill Used:
+Java, Android Studio, XML (UI Design)  
